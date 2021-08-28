@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: raleway;
+}
+
+/*Menu CSS Strat*/
+
+.container {
+  width: 100%;
+  height: 100px;
+  background: #002B5B;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  width: 80%;
+  height: 100px;
+  clear:both;
+  overflow:auto;
+}
+
+.logo img{
+  width: 65px;
+  float:left;
+  margin: 10px;
+}
+
+nav{
+  float:right;
+  margin-top: 29px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #29A1DB;
+}
+
+/*Menu CSS End*/
+
+.bgImage {
+  clear:both;
+  overflow:auto;
+  width: auto;
+  height: 85vh;
+  background-image: url("images/nsucampus.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_contents {
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+  opacity:0.7;
+  background: #002B5B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home_texts {
+  color: #fff;
+}
+
+.home_contents .button {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #002B5B;
+  font-weight: bolder;
+  padding: 10px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #0F1A50;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+
+/* Login page CSS start */
+
+.user_login {
+  clear:both;
+  overflow:auto;
+  width: auto;
+  height: 85vh;
+  background-image: url("images/loginBG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.user_login .button {
+  height: 70px;
+  width: 350px;
+  padding: 15px 37px;
+  margin: 5px;
+  background-color: #002B5B;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login page CSS end */
+
+
+
+/*New Register Page Start */
+
+.teaRegForm , .stdRegForm {
+  width: 550px;
+  height: auto;
+  display: flex;
+  margin: 100px auto;
+  opacity:0.7;
+  background-color: #002B5B;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.regButton {
+  margin-top: 5px;
+  padding: 3px;
+  height: auto;
+  width: 80px;
+}
+
+.table_div {
+  padding: 40px 55px;
+}
+.table_div h3 {
+  text-align: center;
+}
+.left {
+  width: 170px;
+  height: 25px;
+}
+
+.right {
+  width: 270px;
+  height: 25px;
+}
+
+.right input[type = text], .right input[type = password], .right input[type = tel], .right input[type = email]{
+  width: 250px;
+  height: 21px;
+}
+.right label {
+  margin-right: 18px;
+}
+.right select {
+  width:  80px;
+  height: 21px;
+}
+
+.error {
+  color: rgb(250, 255, 0);
+  font-weight: bold;
+}
+
+
+
+

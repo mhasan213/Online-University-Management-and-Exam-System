@@ -1,0 +1,102 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+h2 {color: #4169E1;}
+.content {
+  margin-left: 200px;
+  margin-bottom: 60px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #87CEEB;
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.btn{
+  background:  #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn:hover{
+  background: #10E473;
+}
+
+.table_div1{
+	width:50%;
+	float:left;
+	border: 3px 
+	padding: 3px;
+	margin: auto;
+}
+.table_div2{
+	width:50%;
+	float:right;
+	border: 3px solid 
+	padding: 3px;
+	margin: auto;
+}  
+ 
+
+  
+  .table_div {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 3px solid 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .table_div .left p {
+    font-weight: bold;
+  }
+.table_div1 .left p {
+    font-weight: bold;
+  }  
+.table_div2 .left p {
+    font-weight: bold;
+  } 
+
+.mcq {
+margin: auto;
+
+  width: 60%;
+  height:100%;
+
+  border: 3px ridge #B0C4DE;
+
+  padding: 10px;
+
+
+.buttons {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 3px solid 
+    padding: 20px;
+    text-align: center;
+  
+}
+
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
